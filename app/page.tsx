@@ -1,5 +1,7 @@
 import { Header } from "@/components/landing/header"
 import { Hero } from "@/components/landing/hero"
+import { YoutubeSharingSession } from "@/components/landing/youtube-sharing-session"
+import { InstagramFeed } from "@/components/landing/instagram-feed"
 import { ProblemStatement } from "@/components/landing/problem-statement"
 import { Solution } from "@/components/landing/solution"
 import { HowItWorks } from "@/components/landing/how-it-works"
@@ -14,6 +16,8 @@ export default function Home() {
     <main className="min-h-screen bg-background">
       <Header />
       <Hero />
+      <YoutubeSharingSession />
+      <InstagramFeed />
       <ProblemStatement />
       <Solution />
       <HowItWorks />

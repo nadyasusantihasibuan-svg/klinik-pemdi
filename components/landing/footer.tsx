@@ -2,7 +2,7 @@ import { MapPin, Mail, Phone } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="bg-secondary text-secondary-foreground py-16">
+    <footer className="bg-[#003867] text-white py-12">
       <div className="max-w-6xl mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* About */}
@@ -23,18 +23,18 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Navigasi</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="hover:text-secondary-foreground transition-colors text-secondary-foreground/70">
-                  Tentang
+                <a>
+                  <span className="text-secondary-foreground/70">Tentang</span>
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-secondary-foreground transition-colors text-secondary-foreground/70">
-                  Dokumentasi
+                <a>
+                  <span className="text-secondary-foreground/70">Dokumentasi</span>
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-secondary-foreground transition-colors text-secondary-foreground/70">
-                  Kebijakan Privasi
+                <a>
+                  <span className="text-secondary-foreground/70">Kebijakan Privasi</span>
                 </a>
               </li>
               <li>
@@ -65,7 +65,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-secondary-foreground/10 pt-8">
+        <div className="border-t border-secondary-foreground/10 pt-4">
           <p className="text-center text-sm text-secondary-foreground/60">
             Copyright © {new Date().getFullYear()} Kementerian Komunikasi dan Digital RI. Semua hak dilindungi
             undang-undang.
